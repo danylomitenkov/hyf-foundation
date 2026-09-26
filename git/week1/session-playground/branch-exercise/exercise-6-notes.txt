@@ -1,0 +1,25 @@
+Exercise 6 - Branching Notes & Answers:
+
+Point 14 (on main):
+- Before merging branches, only the initial countries.txt with 2 countries is visible.
+
+Point 15 (git log on main):
+- Only the initial commit is visible in git log.
+
+Point 16 (on add-countries branch):
+- countries.txt contains all 4 countries (Denmark, Ukraine, Germany, Spain).
+
+Point 17 (git log on add-countries):
+- Shows the commit from add-countries branch on top of main.
+
+Point 18 (on add-cities branch):
+- cities.txt (Copenhagen, Kyiv) and initial countries.txt are visible.
+
+Point 19 (git log on add-cities):
+- Shows commit adding cities.txt on top of main.
+
+Point 22-23 (git merge add-countries into main):
+- Fast-forward merge. Main branch now has the updated countries.txt.
+
+Point 24-26 (git merge add-cities into main):
+- 3-way merge, creating a merge commit. Now main branch has both updated countries.txt and cities.txt.

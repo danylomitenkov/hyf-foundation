@@ -1,0 +1,3 @@
+My new assignment Danylo Mitenkov
+More text
+Git PRs update automatically!
