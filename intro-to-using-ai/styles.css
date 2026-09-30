@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: white;
+  background-color: darkslategray;
+  padding: 1.5rem 2.5rem;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.change-bg-color-button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  max-width: fit-content;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .skills-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
