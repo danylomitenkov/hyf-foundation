@@ -46,7 +46,7 @@ function getWearRecommendation(temperature) {
   } else if (temperature <= 15) {
     return "Thick t-shirt";
   } else {
-    return "shorts and a t-shirt";
+    return "Shorts and a t-shirt";
   }
 }
 
