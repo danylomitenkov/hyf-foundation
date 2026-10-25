@@ -61,8 +61,7 @@ addActivity(today.toLocaleDateString("en-GB"), "Youtube", 30);
 
 function showStatus(activities) {
   if (activities.length === 0) {
-    console.log("Add some activities before calling showStatus");
-    return;
+    return "You don't have any activities in your list. Please, add some activities and try again";
   }
   let totalDuration = 0;
   activities.forEach((element) => {
