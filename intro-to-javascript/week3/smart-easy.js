@@ -16,11 +16,9 @@ function getNote(id) {
 }
 
 function logOutNotesFormatted() {
-  let notesStr = "";
   for (const note of notes) {
-    notesStr += `The note with id: ${note.id}, has the following note text: ${note.content}\n`;
+    console.log(`The note with id: ${note.id}, has the following note text: ${note.content}\n`);
   }
-  console.log(notesStr);
 }
 
 saveNote("Pick up groceries", 1);
