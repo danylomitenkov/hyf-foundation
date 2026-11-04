@@ -1,6 +1,6 @@
 # Component Explanations
 
-**Excalidraw Link:** [View interactive diagram](https://excalidraw.com/#json=avLm8i8ZqEImnbLq2fJd6,xqu58SyzlE2nEvsoEs_B8Q)
+**Excalidraw Link:** [View interactive diagram](https://excalidraw.com/#room=fe20245648c73906d61f,CpHEmav6Z0rNhsxq8lrlOg)
 
 ---
 
